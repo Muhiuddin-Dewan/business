@@ -1,0 +1,862 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn.focus,
+.btn:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    border: 0;
+    outline: 0;
+}
+
+
+/*=================Common CSS End===================*/
+
+
+
+/*=====================================================
+                    Header CSS Start
+======================================================*/
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px 0px rgba(84, 97, 96, 0.04);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar-toggler {
+    margin: 5px 0;
+}
+
+.navbar-toggler i {
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-link {
+
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #212121;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 45px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #2c78b9;
+}
+
+
+/*=====================================================
+                    Banner CSS Start
+======================================================*/
+
+
+#banner_section {
+    background: url(../images/banner/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 325px;
+    padding-bottom: 300px;
+    position: relative;
+}
+
+.banner_content h3 {
+    font-size: 28px;
+    color: #fff;
+    background: #020202;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.banner_content h4 {
+    font-size: 20px;
+    color: #020202;
+    background: #ffff;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+.banner_content h5 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.button .btn {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background: #2c78b9;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.button .btn:hover {
+    color: #2c78b9;
+    background: #fff;
+
+}
+
+.badge {
+    background-color: rgba(44, 120, 185, 0.8);
+    padding: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: -102px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.badge h4 {
+    font-size: 22px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 50px 30px;
+    border-radius: 50%;
+    border: 1px dashed #fff;
+}
+
+.badge span {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+
+
+/*=====================================================
+                    About CSS Start
+======================================================*/
+
+.about_img {
+    position: relative;
+}
+
+.photos img.female {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 24px 0px rgba(75, 86, 83, 0.2);
+    position: absolute;
+    left: 220px;
+    top: 70px;
+    z-index: 999;
+}
+
+.photos img.male {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 24px 0px rgba(75, 86, 83, 0.2);
+    position: absolute;
+    right: 160px;
+    top: 25px;
+}
+
+.photos img.small {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 24px 0px rgba(75, 86, 83, 0.2);
+    position: absolute;
+    left: 140px;
+    top: 15px;
+}
+
+
+.short_description h5 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.short_description p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #777777;
+    padding-top: 20px;
+}
+
+.about_item {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.inner_title p {
+    font-size: 14px;
+    color: #999999;
+
+}
+
+.about_item .btn {
+    font-size: 12px;
+    color: #2c78b9;
+    background: transparent;
+    border: 1px solid #2c78b9;
+    padding: 10px 15px;
+}
+
+.about_item .btn:hover {
+    color: #fff;
+    background: #2c78b9;
+    border: 1px solid transparent;
+}
+
+
+.social_icon {
+    padding-top: 20px;
+}
+
+.social_icon a i {
+    color: #fbc02d;
+    background: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.social_icon a i:hover {
+    color: #fff;
+    background: #fbc02d;
+
+}
+
+/*=====================================================
+                    Counter CSS Start
+======================================================*/
+
+#counter_section {
+    background: #2c78b9;
+    padding-bottom: 60px;
+}
+
+.counter_text {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.counter_text h2 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    display: inline-block;
+}
+
+.counter_text span {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+.counter_text h5 {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+
+
+/*=====================================================
+                    Work CSS Start
+======================================================*/
+
+.work_img {
+    text-align: center;
+    position: relative;
+}
+
+.work_img .pen_holder {
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+}
+
+.work_img .price {
+    background: #2c78b9;
+    height: 130px;
+    width: 130px;
+    padding: 25px 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.work_img .price p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.work_img .price h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.work_img .price h2 span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#work_section .inner_title {
+    text-align: left;
+}
+
+#work_section .inner_title h4:after {
+    left: 0 !important;
+    transform: translateX(0) !important;
+}
+
+.web_design .work_text {
+    padding-left: 30px;
+}
+
+.graphics_design .inner_title h4:after {
+    background: #0e7c9a;
+}
+
+.graphics_design .work_text {
+    padding-right: 30px;
+}
+
+.graphics_design .work_img .price {
+    background: #0e7c9a;
+    left: -50px;
+}
+
+.progress {
+    margin-top: 20px;
+}
+
+.progress h6 {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.progress p{
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+    text-align: right;
+    display: inline-block;
+}
+
+
+/*=====================================================
+                    Porfolio CSS Start
+======================================================*/
+
+.portfolio_list ul li {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #777777;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px 2px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.portfolio_list ul li.mixitup-control-active {
+    color: #fff;
+    background: #2c78b9;
+}
+
+.portfolio_list ul li:hover {
+    color: #fff;
+    background: #2c78b9;
+}
+
+
+
+
+/*=====================================================
+                    Price CSS Start
+======================================================*/
+
+#price_section {
+    background: #0e7c9a;
+}
+
+
+#price_section .section_title h2 {
+    color: #fff;
+}
+
+#price_section .section_title h2 span {
+    color: #fff;
+}
+
+#price_section .section_title h4 {
+    color: #fff;
+}
+
+#price_section .section_title p {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+.price_item {
+    text-align: center;
+    background: #fff;
+    padding: 30px 40px 40px;
+    margin-top: 60px;
+}
+
+.price_title h3 {
+    font-size: 18px;
+    color: #fc5b4d;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.print h3 {
+    color: #fea63e;
+}
+
+.branding h3 {
+    color: #aecb6a;
+}
+
+.custom h3 {
+    color: #5cc99f;
+}
+
+
+.price h4 {
+    font-size: 14px;
+    color: #999999;
+    text-transform: capitalize;
+}
+
+.price h2 {
+    font-size: 70px;
+    color: #fc5b4d;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.print h2 {
+    color: #fea63e;
+}
+
+.branding h2 {
+    color: #aecb6a;
+}
+
+.custom h2 {
+    color: #5cc99f;
+}
+
+.price h2 span {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.feature ul li {
+    font-size: 14px;
+    color: #999999;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.price_item .button .btn {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: #fc5b4d;
+}
+
+.print .button .btn {
+    background: #fea63e;
+}
+
+.branding .button .btn {
+    background: #aecb6a;
+}
+
+.custom .button .btn {
+    background: #5cc99f;
+}
+
+
+/*=====================================================
+                    Features CSS Start
+======================================================*/
+
+.features_item {
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.features_icon {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.features_icon i {
+    font-size: 28px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    background: #279bc4;
+    border-radius: 5px;
+}
+
+#features_section .inner_title {
+    text-align: center;
+}
+
+#features_section .inner_title h4 {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+#features_section .inner_title h4:after {
+    content: none;
+}
+
+
+
+
+/*=====================================================
+                    Blog CSS Start
+======================================================*/
+#recent-blog .details {
+    position: relative;
+    width: 270px;
+    height: 550px;
+}
+
+#recent-blog .details .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(64, 64, 64, 0.4);
+}
+
+#recent-blog .details .text {
+    margin-top: 440px;
+}
+
+#recent-blog .details .text h5 {
+    font-size: 18px;
+    line-height: 35px;
+    color: #0d0d0d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: white;
+    display: inline-block;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+}
+
+/*=====================================================
+                    Blog CSS Ends
+======================================================*/
+
+
+/*=====================================================
+                    Clients CSS Start
+======================================================*/
+
+.clients_item {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.test_img {
+    text-align: center;
+}
+
+.test_img img {
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+.test_text h4 {
+    font-size: 14px;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.test_text h4 a {
+    font-size: 14px;
+    color: #2c78b9;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    margin-left: 2px;
+}
+
+.test_text h4:after {
+    position: absolute;
+    content: '“';
+    left: 0;
+    top: -7px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.test_text h3 {
+    font-size: 14px;
+    color: #999999;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #aecb6a;
+    line-height: 1.6;
+}
+
+
+/*=====================================================
+                    About Page CSS Start
+======================================================*/
+
+/*=====================================================
+                    about_details CSS Start
+======================================================*/
+#about_details {
+    padding-top: 100px;
+}
+
+#about_details .details h4 {
+    font-size: 24px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+    padding-top: 60px;
+}
+
+#about_details .details p {
+    font-size: 13px;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 30px;
+}
+
+#about_details .details .button .btn:hover {
+    border: 1px solid #2c78b9;
+
+}
+
+/*=====================================================
+                    about_details CSS Ends
+======================================================*/
+/*=====================================================
+                    features_section CSS starts
+======================================================*/
+
+#features_section .features_item .heading_below {
+    padding-bottom: 10px;
+}
+
+#features_section .features_item .first i {
+    background: #0e7c9a;
+}
+
+#features_section .features_item .second i {
+    background: #1b9bc6;
+}
+
+#features_section .features_item .third i {
+    background: #338ac8;
+}
+
+#features_section .features_item .fourth i {
+    background: #675ab3;
+}
+
+/*=====================================================
+                    features_section CSS ends
+======================================================*/
+/*=====================================================
+                    Bottom-Counter CSS starts
+======================================================*/
+#bottom-coutner img {
+    width: 100%;
+}
+
+#bottom-coutner .details h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #555555;
+    padding: 30px 0;
+}
+
+#bottom-coutner .details p {
+    font-size: 13px;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/*=====================================================
+                    Bottom-Counter CSS ends
+======================================================*/
+/*=====================================================
+                    Template CSS starts
+======================================================*/
+#template {
+    padding: 100px;
+    background: url(../images/About_page/template/template.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#template .details {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+#template .details h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#template .details h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/*=====================================================
+                    Template CSS ends
+======================================================*/
+/*=====================================================
+                    About page CSS Ends
+======================================================*/
