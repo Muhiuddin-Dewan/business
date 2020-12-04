@@ -421,26 +421,43 @@ header {
     left: -50px;
 }
 
-.progress {
-    margin-top: 20px;
+.prog {
+    margin-top: 40px;
+    padding-right: 30px;
 }
 
-.progress h6 {
+.prog1 {
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.prog .barfiller {
+    height: 30px;
+    width: 540px;
+}
+
+.prog1 .barfiller {
+    height: 30px;
+    width: 540px;
+}
+
+.prog p {
     font-size: 13px;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
-    text-align: left;
+    font-weight: 600;
     display: inline-block;
+    margin-left: 20px;
 }
-.progress p{
+.prog1 p {
     font-size: 13px;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    margin-right: 10px;
-    text-align: right;
+    font-weight: 600;
     display: inline-block;
+    margin-left: 20px;
 }
+
 
 
 /*=====================================================
@@ -763,6 +780,50 @@ header {
     border: 1px solid #2c78b9;
 
 }
+#about_details .persons{
+    margin-top: 140px;
+}
+#about_details .persons .details{
+    padding-left: 265px;
+    z-index: 999999;
+}
+
+#about_details .persons .details h4{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 36px;
+}
+#about_details .persons .details h5{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 36px;
+}
+#about_details .persons .first {
+    background: url(../images/About_page/about_details/first_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+#about_details .persons .second {
+    background: url(../images/About_page/about_details/second_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+#about_details .persons .third {
+    background: url(../images/About_page/about_details/third_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
 
 /*=====================================================
                     about_details CSS Ends
@@ -825,7 +886,6 @@ header {
                     Template CSS starts
 ======================================================*/
 #template {
-    padding: 100px;
     background: url(../images/About_page/template/template.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -844,6 +904,7 @@ header {
     line-height: 36px;
     font-weight: 700;
     color: #000000;
+    padding-bottom: 20px;
 }
 
 #template .details h2 {
@@ -856,6 +917,62 @@ header {
 
 /*=====================================================
                     Template CSS ends
+======================================================*/
+/*=====================================================
+                    Company_story CSS starts
+======================================================*/
+#company-story .img{
+    position: relative;
+}
+#company-story .img .position{
+    position: absolute;
+    top: 85px;
+    right: -10px;
+}
+#company-story .details{
+    text-align: right;
+}
+#company-story .details2{
+    text-align: left;
+}
+#company-story .date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #2c78b9;
+    display: inline-block;
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    text-align: right;
+}
+#company-story h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #555555;
+}
+#company-story p{
+    font-size: 12px;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 24px; 
+}
+#company-story .img2{
+    position: relative;
+    text-align: right;
+}
+#company-story .img2 .position2{
+    position: absolute;
+    top: 85px;
+    left: -10px;
+}
+/*=====================================================
+                    Company_story CSS ends
 ======================================================*/
 /*=====================================================
                     About page CSS Ends
